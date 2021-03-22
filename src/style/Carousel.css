@@ -1,0 +1,14 @@
+.carouselDiv{
+    width: 200vw;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.firstComponent{
+    width: 100vw;
+}
+
+.secondComponent{
+    width: 100vw;
+}

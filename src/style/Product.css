@@ -1,0 +1,79 @@
+.productDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #aaa;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productImg{
+    background: floralwhite;
+    max-width: 300px;
+    cursor: pointer;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.productInfo{
+    border-top: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.productName{
+    margin-top: 5px;
+    cursor: default;
+    font-size: 20px;
+}
+
+.productPrice{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    cursor: default;
+    font-size: 18px;
+}
+
+.productHoverBtns{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    background: #eeea;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    display: none;
+    z-index: 20;
+}
+
+.productBtn{
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    background: none;
+    outline: none;
+    border: none;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.productBtnImg{
+    height: 80%;
+    margin-top: 10%;
+}
+
+.productHoverBtns:hover{
+    display: flex;
+}
+
+.productImg:hover ~ .productHoverBtns{
+    display: flex;
+}

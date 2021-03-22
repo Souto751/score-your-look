@@ -1,0 +1,96 @@
+.right-div{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: #eff;
+}/* Component Div */
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}/* Right content */
+
+.right-image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+}
+
+.right-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}/* Left content */
+
+.right-left-title{
+    text-align: center;
+    color: #2a2b2c;
+    font-size: 35px;
+}
+
+.right-left-desc{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2a2b2c;
+    font-size: 20px;
+    width: 70%;
+}
+
+.right-left-btn-div{
+    display: flex;
+}
+
+.right-left-btn{
+    background: none;
+    outline: none;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 3px solid #ee0;
+    border-right: 3px solid #ee0;
+    border-top: 3px solid #2a2b2c;
+    border-left: 3px solid #2a2b2c;
+}
+
+.right-left-btn:active{
+    border-top: 3px solid #ee0;
+    border-left: 3px solid #ee0;
+    border-bottom: 3px solid #2a2b2c;
+    border-right: 3px solid #2a2b2c;
+}
+
+.right-left-img:hover{
+    animation: arrowLeft 1s;
+}
+
+@keyframes arrowLeft{
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(-10px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveLeft{
+    from{
+        transform: translateX(-100vw);
+    }
+
+    to{
+        transform: translateX(0vw);
+    }
+}

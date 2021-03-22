@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Arsenal Home Shirt",
+        "desc": "Arsenal Home Shirt 2020/21",
+        "price": 90,
+        "front": "https://github.com/Souto751/project-imgs/blob/main/shirts/img/England/1/arsenal-home.png?raw=true",
+        "back": "https://github.com/Souto751/project-imgs/blob/main/shirts/img/England/1/arsenal-home-back.png?raw=true",
+        "team": "Arsenal",
+        "league": "Premier League",
+        "colors": ["white", "red"]
+    },
+    {
+        "name": "Arsenal Home Shirt",
+        "desc": "Arsenal Home Shirt 2020/21",
+        "price": 90,
+        "front": "https://github.com/Souto751/project-imgs/blob/main/shirts/img/England/1/arsenal-home.png?raw=true",
+        "back": "https://github.com/Souto751/project-imgs/blob/main/shirts/img/England/1/arsenal-home-back.png?raw=true",
+        "team": "Arsenal",
+        "league": "Premier League",
+        "colors": ["white", "red"]
+    },
+    {
+        "name": "Arsenal Home Shirt",
+        "desc": "Arsenal Home Shirt 2020/21",
+        "price": 90,
+        "front": "https://github.com/Souto751/project-imgs/blob/main/shirts/img/England/1/arsenal-home.png?raw=true",
+        "back": "https://github.com/Souto751/project-imgs/blob/main/shirts/img/England/1/arsenal-home-back.png?raw=true",
+        "team": "Arsenal",
+        "league": "Premier League",
+        "colors": ["white", "red"]
+    }
+]
